@@ -21,5 +21,5 @@ def reduce_intensity_levels(levels):
     cv2.imwrite(output_path, reduced)
     print(f"Image saved to {output_path} with {levels} intensity levels.")
 
-# Run  2 intensity levels
+# Run with 2 intensity levels
 reduce_intensity_levels(2)
