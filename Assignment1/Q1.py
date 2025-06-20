@@ -1,3 +1,6 @@
+#q1
+#author:- visal adikari
+
 import cv2
 import numpy as np
 import os
