@@ -6,8 +6,8 @@ import numpy as np
 import os
 
 def reduce_intensity_levels(levels):
-    input_path = "Assignment1/input/img1.jpg"
-    output_folder = "Assignment1/output"
+    input_path = r"C:\Users\visal Adikari\OneDrive\Desktop\Vision_Assignment1_3803\Assignment1\input\img1.jpg"
+    output_folder = r"C:\Users\visal Adikari\OneDrive\Desktop\Vision_Assignment1_3803\Assignment1\output"
     output_path = os.path.join(output_folder, "reduced_levels.png")
 
     img = cv2.imread(input_path, cv2.IMREAD_GRAYSCALE)
